@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <style>
+        body{
+            font-family: cursive;
+        }
+        .navbar{
+            background-color: #273036;
+            color:#9b8f78 !important;
+        }
+        .nav-item{
+            border-left: 1px solid whitesmoke;
+        }
+        .info img{
+            width: 100%;
+            border-radius: 500px;
+        }
+        a:hover{
+            color: white !important;
+            font-weight: 500;
+        }
+        .social{
+            display:block;
+            width: 100%;
+            float: right;
+        }
+        .social img{
+        width: 30px;
+        height: 30px;
+        display: block;
+        float: right;
+        margin: 10px 5px;
+        }
+        .info {
+            background-image: url(/assests/wave.svg);
+            background-repeat: no-repeat;
+            background-position: bottom;
+            margin:100px auto;
+        }
+        .web-design .row{
+            border: dashed dimgrey;
+            border-radius: 20px;
+            margin: 10px 100px;
+            float: left;
+        }
+        .ui-design .row{
+            border: dashed dimgrey;
+            border-radius: 20px;
+            margin: 10px 50px;
+            width: auto;
+            float: right;
+        }
+        .web-design h1 ,.ui-design h1{
+            margin: 5px 15px;
+            font-weight: 400;
+        }
+        .web-design p,.ui-design p{
+           width: 300px;
+           margin: 2px 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar w-100">
+        <span class="navbar-brand ps-5 m-3 text-capitalize fw-bold fs-3 text">Anuj Shakya</span>
+    <ul class="nav justify-content-end">
+        <li class="nav-item px-3 mt-3">
+          <a class="nav-link active" aria-current="page" href="#">What I Do ?</a>
+        </li>
+        <li class="nav-item px-3 mt-3">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item px-3 mt-3">
+          <a class="nav-link" href="#">Skills</a>
+        </li>
+        <li class="nav-item px-3 pr-6 mt-3 me-4">
+          <a class="nav-link href="#">Hire Me !</a>
+        </li>
+    </ul>
+    </nav>
+    <div class="container mt-5 pb-0 info">
+        <div class="row mb-3">
+            <div class="col-lg-8 col-sm-12 my-auto">
+                <h1 class="mt-3">Hey !</h1>
+                <h1 class="m-0 pt-3 ms-4">I am Anuj Shakya</h1>
+                <h1 class="m-0 ps-5 pt-3 ms-3">Beginner Web Designer</h1>
+                <p class="mt-3 pb-5 mx-auto text-center w-50">Passionate about web development with a niche in frontend and UI design</p>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Z306v3XdxhOaxBFGfHku7wHaHw%26pid%3DApi&amp;f=1" alt="">
+            </div>
+        </div>
+
+        
+        
+        <div class="row">
+            <div class="social">
+                <a href="https://github.com"><img src="https://cdn.icon-icons.com/icons2/936/PNG/512/github-logo_icon-icons.com_73546.png" alt=""></a>
+                <a href="https://www.instagram.com"><img src="https://cdn.icon-icons.com/icons2/1853/PNG/512/iconfinder-insta-4416094_116652.png" alt=""></a>
+                <a href="https://www.facebook.com"><img src="https://cdn.icon-icons.com/icons2/285/PNG/256/social_facebook_box_blue_256_30649.png" alt=""></a>
+               
+               
+            </div>
+        </div>
+    </div>
+    <main>
+        <h1 class="text-center m-4">What I Do ?</h1>
+        <div class="container web-design mt-5">
+            <div class="row text-center">
+                <div class="col ">
+                    <h1>Web Design</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, perspiciatis explicabo asperiores provident, sed aperiam, accusantium ullam dolores at vitae ducimus minima repellendus atque quia nobis tenetur odit architecto ipsum?</p>
+                </div>
+                <div class="col"> <img src="/assests/web_design.svg" alt=""></div>
+            </div>
+            
+        </div>
+        <div class="container ui-design mt-5">
+            <div class="row">
+                <div class="col r">
+                    <h1>UI Design</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quas totam aperiam recusandae officia culpa nesciunt provident voluptatum molestiae illo doloremque velit rerum sed fuga voluptates omnis, hic maiores quia!</p>
+                </div>
+                <div class="col"> <img src="/assests/ui_ux.svg" alt=""></div>
+            </div>
+            
+        </div>
+        
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
