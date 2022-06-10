@@ -1,3 +1,4 @@
+<!-- https://www.ehsanazizi.me/ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,82 +8,32 @@
     <style>
         body{
             font-family: cursive;
+            box-sizing: border-box;
+            background-color: #eff0f1;
         }
-        .navbar{
-            background-color: #273036;
-            color:#9b8f78 !important;
-        }
-        .nav-item{
-            border-left: 1px solid whitesmoke;
-        }
-        .info img{
-            width: 100%;
-            border-radius: 500px;
-        }
-        a:hover{
-            color: white !important;
-            font-weight: 500;
-        }
-        .social{
-            display:block;
-            width: 100%;
-            float: right;
-        }
-        .social img{
-        width: 30px;
-        height: 30px;
-        display: block;
-        float: right;
-        margin: 10px 5px;
-        }
-        .info {
-            background-image: url(/assests/wave.svg);
-            background-repeat: no-repeat;
-            background-position: bottom;
-            margin:100px auto;
-        }
-        .web-design .row{
-            border: dashed dimgrey;
-            border-radius: 20px;
-            margin: 10px 100px;
-            float: left;
-        }
-        .ui-design .row{
-            border: dashed dimgrey;
-            border-radius: 20px;
-            margin: 10px 50px;
-            width: auto;
-            float: right;
-        }
-        .web-design h1 ,.ui-design h1{
-            margin: 5px 15px;
-            font-weight: 400;
-        }
-        .web-design p,.ui-design p{
-           width: 300px;
-           margin: 2px 40px;
-        }
+        
     </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar w-100">
         <span class="navbar-brand ps-5 m-3 text-capitalize fw-bold fs-3 text">Anuj Shakya</span>
     <ul class="nav justify-content-end">
         <li class="nav-item px-3 mt-3">
-          <a class="nav-link active" aria-current="page" href="#">What I Do ?</a>
+          <a class="nav-link active" aria-current="page" href="#what-i-do">What I Do ?</a>
         </li>
         <li class="nav-item px-3 mt-3">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#project">Projects</a>
         </li>
         <li class="nav-item px-3 mt-3">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item px-3 pr-6 mt-3 me-4">
-          <a class="nav-link href="#">Hire Me !</a>
+          <a class="nav-link" href="#hire">Hire Me !</a>
         </li>
     </ul>
     </nav>
-    <div class="container mt-5 pb-0 info">
+    <div class="container pb-0 info-1">
         <div class="row mb-3">
             <div class="col-lg-8 col-sm-12 my-auto">
                 <h1 class="mt-3">Hey !</h1>
@@ -108,9 +59,9 @@
         </div>
     </div>
     <main>
-        <h1 class="text-center m-4">What I Do ?</h1>
-        <div class="container web-design mt-5">
-            <div class="row text-center">
+        <h1 class="text-center m-4"  id="what-i-do">What I Do ?</h1>
+        <div class="design mt-3">
+            <div class="row">
                 <div class="col ">
                     <h1>Web Design</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, perspiciatis explicabo asperiores provident, sed aperiam, accusantium ullam dolores at vitae ducimus minima repellendus atque quia nobis tenetur odit architecto ipsum?</p>
@@ -119,18 +70,105 @@
             </div>
             
         </div>
-        <div class="container ui-design mt-5">
+        <div class="design mt-3">
             <div class="row">
-                <div class="col r">
+                <div class="col r-2">
                     <h1>UI Design</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quas totam aperiam recusandae officia culpa nesciunt provident voluptatum molestiae illo doloremque velit rerum sed fuga voluptates omnis, hic maiores quia!</p>
                 </div>
                 <div class="col"> <img src="/assests/ui_ux.svg" alt=""></div>
             </div>
-            
         </div>
         
+        <h1 class="text-center m-4" id="project">Projects</h1>
+        <div class="project">
+            <div class="portfolio shadow">
+                <img src="/assests/ui_ux.svg" alt="">
+                <div class="info text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, architecto maxime unde maiores ad, velit fugit enim harum ab dignissimos dolores nam quasi, nobis id odio beatae! Sapiente, tempora consequuntur.</p>
+                </div>
+            </div>
+            <div class="portfolio shadow">
+                <img src="/assests/ui_ux.svg" alt="">
+                <div class="info text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, architecto maxime unde maiores ad, velit fugit enim harum ab dignissimos dolores nam quasi, nobis id odio beatae! Sapiente, tempora consequuntur.</p>
+                </div>
+            </div>
+            <div class="portfolio shadow">
+                <img src="/assests/ui_ux.svg" alt="">
+                <div class="info text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, architecto maxime unde maiores ad, velit fugit enim harum ab dignissimos dolores nam quasi, nobis id odio beatae! Sapiente, tempora consequuntur.</p>
+                </div>
+            </div>
+            <div class="portfolio shadow">
+                <img src="/assests/ui_ux.svg" alt="">
+                <div class="info text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, architecto maxime unde maiores ad, velit fugit enim harum ab dignissimos dolores nam quasi, nobis id odio beatae! Sapiente, tempora consequuntur.</p>
+                </div>
+            </div>
+            <div class="portfolio shadow">
+                <img src="/assests/ui_ux.svg" alt="">
+                <div class="info text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, architecto maxime unde maiores ad, velit fugit enim harum ab dignissimos dolores nam quasi, nobis id odio beatae! Sapiente, tempora consequuntur.</p>
+                </div>
+            </div>
+            <div class="portfolio shadow">
+                <img src="/assests/ui_ux.svg" alt="">
+                <div class="info text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, architecto maxime unde maiores ad, velit fugit enim harum ab dignissimos dolores nam quasi, nobis id odio beatae! Sapiente, tempora consequuntur.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="skills">
+        <h1>Skills</h1>
+
+        <div class="grid-1">
+            <img src="/assests/th-1505900606-removebg-preview.png" alt="">
+            <img src="/assests/html.png" alt="">
+            <img src="/assests/js.png" alt="">
+            <img src="/assests/css.png" alt="">
+            <img src="/assests/c++.png" alt="">
+            
+        </div>
+        <div class="grid-2">
+            <img src="/assests/web_design.svg" alt="">
+            <img src="/assests/web_design.svg" alt="">
+            <img src="/assests/web_design.svg" alt="">
+            <img src="/assests/web_design.svg" alt="">
+            <img src="/assests/web_design.svg" alt="">
+            <img src="/assests/web_design.svg" alt="">
+        </div>
+        
+    </div>
+
+    <h1>Hire Me !</h1>
+    <div id="hire">
+
+        <div class="hire-me">
+            <p>Do you have an interesting project? I'd be happy to help you out.</p>
+            <img src="/assests/email.png" alt=""> anujskya18@gmail.com
+            <div class="info-hire-me">
+                <label>Name : </label>
+                <br>
+            <input type="text" placeholder="Full Name">
+            
+            <br>
+            <label>Email :</label>
+            <br>
+            <input type="email" placeholder="Email">
+            <br>
+            <label>Comment :</label>
+            <br>
+            <textarea class ="shadow"cols="30" rows="10"></textarea>
+            <br>
+            <input type="button" value="SEND MESSAGE">
+        </div>
+    </div>
+</div>
+
     </main>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
